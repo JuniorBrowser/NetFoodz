@@ -17,4 +17,9 @@ public class MainActivity extends AppCompatActivity {
         Intent it = new Intent(MainActivity.this, Cadastro.class);
         startActivity(it);
     }
+    protected void onPause() {
+        // TODO Auto-generated method stub
+        super.onPause();
+        finish();
+    }
 }

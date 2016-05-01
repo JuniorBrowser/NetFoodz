@@ -21,4 +21,9 @@ public class Cadastro extends AppCompatActivity {
         String mensagem = "Cadastro realizado com Sucesso";
         Toast.makeText(this, mensagem, Toast.LENGTH_LONG).show();
     }
+    protected void onPause() {
+        // TODO Auto-generated method stub
+        super.onPause();
+        finish();
+    }
 }
